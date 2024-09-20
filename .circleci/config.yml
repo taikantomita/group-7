@@ -5,7 +5,7 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
 jobs:
-  check-dnm:
+  check-do-not-merge-label:
     # check if "Do Not Merge" label is applied, and prevent merging if it is
     docker:
       - image: cimg/base:current
